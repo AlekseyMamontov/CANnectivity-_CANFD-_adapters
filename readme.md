@@ -45,10 +45,19 @@ USB CAN FD SOLO
 
 <pre>west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
+Build configurations for using the experimental device_next USB device stack in Zephyr are also provided.
+
+<pre>west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_release</pre>
+
+
+
 USB CAN FD DUAL        
 
 <pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
+Build configurations for using the experimental device_next USB device stack in Zephyr are also provided.
+
+<pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_releas</pre>
 ----------------------------
 can-module.com
 --------------------------
