@@ -17,15 +17,15 @@ INSTALL Ubuntu 24.04
 <pre>
  west init -m https://github.com/CANnectivity/cannectivity --mr main my-workspace
 
- sudo apt update
+  sudo apt update
  
- apt list --upgradable
+  apt list --upgradable
  
- sudo apt install python3-pip python3-venv
+  sudo apt install python3-pip python3-venv
  
- pip install --user -U west
+   pip install --user -U west
  
- python3 -m venv .venv
+   python3 -m venv .venv
 
 cd my-workspace
 
@@ -41,11 +41,11 @@ west update
 
 USB CAN FD SOLO     
 
-west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release
+<pre>west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
 USB CAN FD DUAL        
 
-west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release
+<pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
 
 ----------------------------
 can-module.com
