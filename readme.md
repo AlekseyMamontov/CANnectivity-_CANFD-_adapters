@@ -11,6 +11,10 @@ Github
 
 https://github.com/CANnectivity
 
+Zephyr RTOS  
+
+https://www.zephyrproject.org/
+
 
 INSTALL Ubuntu 24.04
 ------------------------------
