@@ -14,8 +14,8 @@ https://github.com/CANnectivity
 
 INSTALL Ubuntu 24.04
 ------------------------------
-
-west init -m https://github.com/CANnectivity/cannectivity --mr main my-workspace
+<pre>
+ west init -m https://github.com/CANnectivity/cannectivity --mr main my-workspace
 
  sudo apt update
  
@@ -36,7 +36,7 @@ export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb
 export GNUARMEMB_TOOLCHAIN_PATH=/usr
 
 west update
-
+</pre>
 ..
 
 USB CAN FD SOLO     
