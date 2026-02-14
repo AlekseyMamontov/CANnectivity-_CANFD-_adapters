@@ -37,9 +37,8 @@ export GNUARMEMB_TOOLCHAIN_PATH=/usr
 
 west update
 
-----------------------------
-can-module.com
---------------------------
+..
+
 USB CAN FD SOLO     
 
 west build -b usbcanfd_Oleksii_g431  cannectivity/app/ -- -DFILE_SUFFIX=release
@@ -48,6 +47,9 @@ USB CAN FD DUAL
 
 west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=release
 
+----------------------------
+can-module.com
+--------------------------
 
 <img src="https://github.com/AlekseyMamontov/CANnectivity-_CANFD-_adapters/blob/main/img/Too_adapters2.jpeg" width="400" alt="USBCANFD 2ch adapter can-module.com">
 
