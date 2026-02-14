@@ -1,3 +1,6 @@
+
+![CANnectivity Logo](https://cannectivity.org/_static/CANnectivity.png)
+
 Project https://cannectivity.org/building.html
 
 INSTALL Ubuntu 24.04
