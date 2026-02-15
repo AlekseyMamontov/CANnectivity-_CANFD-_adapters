@@ -68,14 +68,11 @@ Build configurations for using the experimental device_next USB device stack in 
 
 ***Linux terminal*** (example usbcanfd dual)
 
-
+<pre> uname -r </pre>
 **if linux kernel < 6.15**
 <pre>
- 
  sudo modprobe gs_usb
- 
  echo "1209 ca01" | sudo tee /sys/bus/usb/drivers/gs_usb/new_id
-
 </pre>
 
 
