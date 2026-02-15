@@ -27,11 +27,11 @@ INSTALL Ubuntu 24.04
  
   sudo apt install python3-pip python3-venv
  
-   pip install --user -U west
- 
    python3 -m venv .venv
    
    source .venv/bin/activate
+   
+   pip install --user -U west
  
 cd my-workspace
  
