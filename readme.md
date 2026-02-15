@@ -69,7 +69,7 @@ Build configurations for using the experimental device_next USB device stack in 
 ***Linux terminal*** (example usbcanfd dual)
 
 
-** if linux kernel < 6.15 **
+**if linux kernel < 6.15**
 <pre>
  
  sudo modprobe gs_usb
