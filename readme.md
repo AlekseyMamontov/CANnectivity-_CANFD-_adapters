@@ -63,7 +63,7 @@ Build configurations for using the experimental device_next USB device stack in 
 
 Build configurations for using the experimental device_next USB device stack in Zephyr are also provided.
 
-<pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_releas</pre>
+<pre>west build -b usbcanfd_Oleksii_g473  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_release</pre>
 
 
 ***Linux terminal*** (example usbcanfd dual)
