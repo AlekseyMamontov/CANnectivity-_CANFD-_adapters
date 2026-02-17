@@ -45,6 +45,13 @@ export GNUARMEMB_TOOLCHAIN_PATH=/usr
 </pre>
 
 ..
+**USB CAN ISO standart**     
+
+<pre>west build -b usbcan_iso  cannectivity/app/ -- -DFILE_SUFFIX=release</pre>
+
+Build configurations for using the experimental device_next USB device stack in Zephyr are also provided.
+
+<pre>west build -b usbcan_iso  cannectivity/app/ -- -DFILE_SUFFIX=usbd_next_release</pre>
 
 
 **USB CAN FD SOLO**     
